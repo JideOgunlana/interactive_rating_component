@@ -48,7 +48,7 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-The challenge allowed me build my skill on structuring a page, and applying CSS to the structure. I was able to work on both grids and flexbox for this fun challenge. The javascript aspect was also interesting as it made me look at various scenerios users would attempt with the rating page. One aspect I thought of was allowing the user unselect a rating.
+The challenge allowed me build my skill on structuring a page, and applying CSS to the structure. I was able to work on both grids and flexbox for this fun challenge. The javascript aspect was also interesting as it made me look at various scenerios users would attempt with the rating page. An additional case I thought of was allowing the user unselect a rating.
 
 
 ``` js 
