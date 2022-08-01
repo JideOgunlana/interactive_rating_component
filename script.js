@@ -4,13 +4,10 @@ let ratingsArr = document.querySelectorAll('.rating');
 let span = document.querySelector('span');
 let feedback = document.querySelector('.feedback');
 let appreciation = document.querySelector('.appreciation');
-let ratingScore = 0;
 
-
-// if the selected rating is not active remove from the one that is active and then
-// make the selected rating active
-// if the selected rating is already active only remove active
-// if nothing is active don't remove active only add active to the selected
+/* 
+    function removes active class from rating element
+*/
 let removeActive = (ratingsArr) => {
     let i = 0;
     while (i < ratingsArr.length)
@@ -24,6 +21,21 @@ let removeActive = (ratingsArr) => {
     }
 }
 
+/* 
+    function to provide the rating a user picks
+*/
+let getRating = (ratingArr) => {
+    let score = 0;
+    ratingArr.forEach(rating => {
+        if (rating.classList[1] == 'active')
+            score = parseInt(rating.innerText);
+    });
+    return score;
+}
+
+/* 
+    function adds the active class to selected rating element
+*/
 ratings.addEventListener('click', (e) => {
     let selectedRating = false;
 
@@ -44,14 +56,17 @@ ratings.addEventListener('click', (e) => {
     }
 });
 
+/* 
+    function prevents user from submitting without picking a rating
+*/
 btn.addEventListener('click', (e) => {
-    if (!ratingScore)
+    if (!getRating(ratingsArr))
     {
         alert("Select a Rating please!")
         return ;
     }
 
     feedback.style.display = 'none';
-    span.innerText = ratingScore;
+    span.innerText = getRating(ratingsArr);
     appreciation.classList.add('active');
-})
+});
