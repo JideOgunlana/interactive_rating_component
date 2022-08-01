@@ -57,7 +57,8 @@ ratings.addEventListener('click', (e) => {
 });
 
 /* 
-    function prevents user from submitting without picking a rating
+    function displays the score picked
+    it also prevents users from submitting without picking a rating
 */
 btn.addEventListener('click', (e) => {
     if (!getRating(ratingsArr))
