@@ -33,9 +33,7 @@ Users should be able to:
 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jideogunlana.github.io/interactive_rating_component/](https://your-live-site-url.com)
 
 ## My process
 
@@ -65,9 +63,5 @@ The challenge allowed me build my skill on structuring a page, and applying CSS 
 
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
+- Made by - "Babajide Ogunlana"
+- Frontend Mentor - [@Jide_O](https://www.frontendmentor.io/profile/JideOgunlana)
