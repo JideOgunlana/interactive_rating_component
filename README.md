@@ -33,7 +33,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [click here]([https://your-live-site-url.com](https://jideogunlana.github.io/interactive_rating_component/))
+- Live Site URL: [https://jideogunlana.github.io/interactive_rating_component/](https://jideogunlana.github.io/interactive_rating_component/)
 
 ## My process
 
