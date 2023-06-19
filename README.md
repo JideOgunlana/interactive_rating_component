@@ -44,10 +44,10 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Vanilla javaScript
+- Vanilla JavaScript
 
 ### What I learned
-The challenge allowed me build my skill on structuring a page, and applying CSS to the structure. I was able to work on both grids and flexbox for this fun challenge. The javascript aspect was also interesting as it made me look at various scenerios users would attempt with the rating page. An additional case I thought of was allowing the user unselect a rating.
+The challenge allowed me to build my skill in structuring a page and applying CSS to the structure. I used both CSS grid and flex for the layout. The javascript aspect was also interesting as it made me look at various scenarios users would attempt with the rating page. An additional case I thought of was allowing the user to unselect a rating.
 
 
 ``` js 
@@ -60,7 +60,7 @@ The challenge allowed me build my skill on structuring a page, and applying CSS 
 ```
 
 ### Continued development
-- CSS variables is definitely an area I would want to improve on. 
+- CSS variables are definitely an area I would want to improve on. 
 
 
 ## Author
